@@ -1,0 +1,13 @@
+name: newtheme
+type: theme
+description: 'A base theme with sensible default CSS classes added. Learn how to use Classy as a base theme in the <a href="https://www.drupal.org/docs/8/theming">Drupal 8 Theming Guide</a>.'
+package: Core
+
+base theme: classy
+version: VERSION
+core: 8.x
+
+
+
+libraries:
+  - newtheme/global-css
